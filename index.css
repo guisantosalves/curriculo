@@ -5,13 +5,14 @@
 
 .titulo {
     color: black;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .menu {
     background-color: #718387;
     padding: 25px;
 }
-
 
 .link {
     color: white;
@@ -24,5 +25,31 @@
 
 .cabecalho {
     background-color: #98336c;
-    background-image: linear-gradient(90deg, #486288 0%, #98336c 100%);
+    background: linear-gradient(90deg, rgba(72, 98, 136, 0.8) 0%, rgba(152, 51, 108, 0.8) 100%), url("./images/pexels-mart-production-8122023.jpg");
+    text-align: center;
+    object-fit: cover;
+}
+
+.foto {
+    border-radius: 999px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.icons > a {
+    text-decoration: none;
 }
